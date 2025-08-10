@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Stories - Cybersecurity meets storytelling</title>
+    <meta name="description" content="Engaging cybersecurity stories that blend real-world incidents with fictional narratives to educate and entertain.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Matrix-style background animation -->
+    <div class="matrix-bg" id="matrix-bg"></div>
+    
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">Security Stories</h1>
+                <p class="header__subtitle">Cybersecurity meets storytelling.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <div class="about__content">
+                    <h2 class="about__title">Where Digital Security Meets Human Drama</h2>
+                    <p class="about__text">
+                        Welcome to Security Stories, where the complex world of cybersecurity comes alive through compelling narratives. Here, we blend real-world cybersecurity incidents with fictional storytelling to create engaging tales that both educate and entertain. Each story is crafted to illuminate the human side of digital security – the decisions, the consequences, and the lessons learned in our interconnected world.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Story Section -->
+        <section class="featured">
+            <div class="container">
+                <h2 class="featured__section-title">Featured Story of the Month</h2>
+                <div class="featured__card">
+                    <div class="story-card story-card--featured">
+                        <div class="story-card__badge story-card__badge--featured">
+                            Advanced Persistent Threat
+                        </div>
+                        <h3 class="story-card__title">The Midnight Breach</h3>
+                        <p class="story-card__teaser">
+                            When a security analyst discovers unusual network activity at 3 AM, she uncovers a sophisticated espionage operation that has been hiding in plain sight for months. The deeper she digs, the more she realizes this isn't just another routine incident – it's the beginning of something far more sinister.
+                        </p>
+                        <button class="btn btn--primary story-card__button" onclick="handleReadMore('The Midnight Breach')">
+                            Read Full Story
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stories Grid Section -->
+        <section class="stories">
+            <div class="container">
+                <h2 class="stories__title">Latest Security Chronicles</h2>
+                <div class="stories__grid" id="stories-grid">
+                    <!-- Story cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">Security Stories</h3>
+                    <p class="footer__text">Cybersecurity education through storytelling</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact</h4>
+                    <p class="footer__text">
+                        <a href="mailto:contact@vishnushanmugan.in" class="footer__link">contact@vishnushanmugan.in</a>
+                    </p>
+                    <p class="footer__text">
+                        <a href="https://vishnushanmugan.in" target="_blank" class="footer__link">vishnushanmugan.in</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 Security Stories. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
